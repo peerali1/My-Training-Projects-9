@@ -1,0 +1,431 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    height: 78px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+}
+
+.head-contant {
+    display: flex;
+    /* background-color: #fff; */
+    height: 50px;
+    margin-top: 15px;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.in-head-1 {
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 380px;
+    display: flex;
+}
+
+.in-head-2 {
+    background-color: #000000;
+    height: 50px;
+    width: max-content;
+}
+
+
+.in-head-1 img {
+    width: 44px;
+    cursor: pointer;
+}
+
+.in-head-1 label {
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    margin-block: auto;
+    cursor: pointer;
+}
+
+.help-c {
+    margin-left: 15px;
+}
+
+.in-head-1 img:hover {
+    opacity: 0.8;
+}
+
+.in-head-1 label:hover {
+    opacity: 0.8;
+}
+
+.help-c:hover {
+    border-bottom: 2px solid #fff;
+    opacity: 1;
+}
+
+.inp-1 {
+    height: 50px;
+    width: 250px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: none;
+    /* line-height: 50px; */
+    font-size: 20px;
+    padding: 0px 20px;
+    /* margin-left: 10px; */
+}
+
+.inp-2 {
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid white;
+    background-color: #171616;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.inp-3 {
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    /* border: 1px solid white; */
+    background-color: #4C5FD5;
+    cursor: pointer;
+    color: #fff;
+    font-size: 23px;
+    margin-right: 10px;
+    transition: 1s;
+}
+
+
+.inp-3:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.bar-img {
+    width: 44px;
+    display: none;
+}
+
+.section-1 {
+    height: 410px;
+    background-color: #DADBF1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.section-1 p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 65px;
+}
+
+.section-1 .section-serch {
+    width: 100%;
+    height: 50px;
+    /* margin-left: 10px; */
+    border-radius: 3px;
+    border: none;
+    border: 1px solid;
+    border-width: .5px;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+
+.help-btn {
+    height: 40px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: #4C5FD5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    /* position: relative; */
+    inset: 93%;
+}
+
+.help-btn p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    height: max-content;
+
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot-contant-contaner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    max-width: 280px;
+    height: max-content;
+    background-color: #735858;
+    margin: 2rem;
+}
+
+.mdf-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.contant-box-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #000;
+}
+
+.contant-box-1 h1 {
+    color: #fff;
+    font-size: 25px;
+}
+
+.contant-box-1 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+
+.contant-box-1 a:hover {
+    border-bottom: 1px solid white;
+}
+
+.contant-box-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.contant-box-2 h1 {
+    color: #fff;
+    font-size: 25px;
+}
+
+.contant-box-2 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+
+.contant-box-2 a:hover {
+    border-bottom: 1px solid white;
+}
+
+.contant-box-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.contant-box-3 h1 {
+    color: #fff;
+    font-size: 25px;
+}
+
+.contant-box-3 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    margin: 2px;
+}
+
+.contant-box-3 a:hover {
+    border-bottom: 1px solid white;
+}
+
+
+
+.contant-box-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.contant-box-4 h1 {
+    color: #fff;
+    font-size: 25px;
+}
+
+
+.contant-box-4 h2 {
+    color: white;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-bottom: -1px;
+}
+
+.contant-box-4 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+
+.contant-box-4 a:hover {
+    border-bottom: 1px solid white;
+}
+
+
+.contant-box-5 {
+    width: 320px;
+    margin-top: 150px;
+    background-color: #000;
+    color: #fff;
+}
+
+.contant-box-5 img {
+    width: 40px;
+}
+
+.contant-box-5 p {
+    font-size: 20px;
+}
+
+.section-2{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: space-around;
+}
+.cotanre{
+    
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+    flex-wrap: wrap;
+}
+.in-card1-contante{
+    margin-left: 1rem;
+}
+.card-contaner {
+    display: flex;
+    margin: 1rem;
+}
+.in-card2-img img{
+    width: 100px;
+}
+
+.in-card1-img img{
+    width: 100px;
+}
+
+.pin-c-c{
+    max-width: 450px;
+    font-size: 1.1rem;
+}
+.a-c-c{
+    text-decoration: none;
+    color: blue;
+    font-size: 1rem;
+}
+/* .card5{
+    margin-left: -160px;
+} */
+
+
+/* 
+@media
+@media
+@media
+@media
+@media
+@media
+@media
+@media
+@media
+@media
+@media
+@media */
+
+@media(max-width:1185px){
+    .cotanre{
+        flex-direction: column;
+        margin: 1.5rem;
+
+    }
+}
+@media(max-width:1185px) {
+    .in-head-2 {
+        display: none;
+
+    }
+
+
+    .bar-img {
+        display: block;
+        width: 35px;
+        cursor: pointer;
+    }
+
+    .in-head-1 {
+        /* width: 300px; */
+        margin-left: -20px;
+    }
+
+    .in-head-1 img {
+        width: 34px;
+        cursor: pointer;
+    }
+
+    .in-head-1 label {
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        margin-block: auto;
+        cursor: pointer;
+    }
+
+    .section-1 .section-serch {
+        width: 90%;
+        /* margin-inline: auto; */
+        margin-left: 5%;
+    }
+
+    .contante p {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .mdf-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contant-box-5 {
+        display: none;
+        /* margin-top: 600px;
+        margin-right: auto;
+        float: left; */
+    }
+}
